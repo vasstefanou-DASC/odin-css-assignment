@@ -1,0 +1,17 @@
+body {
+    margin:0;
+}
+.header {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+ul {
+    list-style: none;
+    display:flex;
+    margin:0;
+    padding:0;
+    gap: 10px;
+}
