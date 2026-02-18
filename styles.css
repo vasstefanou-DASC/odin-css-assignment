@@ -97,3 +97,11 @@ button {
     justify-content: space-between;
     align-items: center;
 }
+.footer {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
