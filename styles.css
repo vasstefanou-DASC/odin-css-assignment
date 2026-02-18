@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin:0;
+    font-family:'Roboto','Times New Roman',sans-serif;
 }
 .header {
-    background-color: blue;
+    background-color: #1F2937;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -16,21 +19,19 @@ ul {
     gap: 10px;
 }
 .hero {
-    background-color: blue;
+    background-color: #1F2937;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 0px 80px 50px 80px;
 }
 .text-signup {
-    height: 120px;
     width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .big-image {
-    height:120px;
     width: 400px;
     background-color: gray;
     display: flex;
@@ -41,17 +42,20 @@ button {
     width: 100px;
     padding: 5px 20px;
     border-radius: 10px;
+    background-color: #3882F6;
+    color:#F9FAF8;
 }
 .info-header {
-    font-size:30px;
+    font-size:36px;
     font-weight:900;
     text-align: center;
     padding: 20px 0px;
+    color: #1F2937;
 }
 .small-image {
     height:140px;
     width: 140px;
-    border: 2px solid lightskyblue;
+    border: 2px solid #3882F6;
     border-radius:10px;
 }
 .subtext {
@@ -66,14 +70,14 @@ button {
     padding-bottom: 50px;
 }
 .quote {
-    background-color: lightgray;
+    background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .quotebox {
     width: 650px;
-    background-color: lightgray;
+    background-color: #E5E7EB;
     padding: 50px 0px;
     display: flex;
     flex-direction: column;
@@ -81,14 +85,16 @@ button {
     
 }
 .main-quote {
-    font-size: 30px;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight:300;
 }
 .quoter {
-    font-weight:800;
+    font-weight:900;
     align-self: flex-end;
 }
 .signup-box {
-    background-color: lightskyblue;
+    background-color: #3882F6;
     color: white;
     margin: 50px 80px;
     border-radius: 8px;
@@ -98,10 +104,26 @@ button {
     align-items: center;
 }
 .footer {
-    background-color: blue;
+    background-color: #1F2937;
     color: white;
     padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hero .main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:900;
+}
+.hero .second-text {
+    font-size:18px;
+    color: #E5E7EB;
+}
+.logo {
+    font-size:24px;
+    color:#F9FAF8;
+}
+.btn button{
+    border-color: #F9FAF8;
 }
