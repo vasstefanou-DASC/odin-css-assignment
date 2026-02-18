@@ -6,7 +6,7 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 10px 80px;
+    padding: 10px 80px 50px 80px;
 }
 ul {
     list-style: none;
@@ -14,4 +14,31 @@ ul {
     margin:0;
     padding:0;
     gap: 10px;
+}
+.hero {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px 50px 80px;
+}
+.text-signup {
+    height: 120px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.big-image {
+    height:120px;
+    width: 400px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 100px;
+    padding: 5px 20px;
+    border-radius: 10px;
 }
