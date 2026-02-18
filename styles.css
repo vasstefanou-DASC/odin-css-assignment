@@ -57,10 +57,33 @@ button {
 .subtext {
     width:140px;
     text-align: center;
-    padding:5px;
+    padding-top:5px;
 }
 .content {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 50px;
+}
+.quote {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotebox {
+    width: 650px;
+    background-color: lightgray;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.main-quote {
+    font-size: 30px;
+}
+.quoter {
+    font-weight:800;
+    align-self: flex-end;
 }
