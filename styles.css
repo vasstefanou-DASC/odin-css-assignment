@@ -87,3 +87,13 @@ button {
     font-weight:800;
     align-self: flex-end;
 }
+.signup-box {
+    background-color: lightskyblue;
+    color: white;
+    margin: 50px 80px;
+    border-radius: 8px;
+    padding:20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
